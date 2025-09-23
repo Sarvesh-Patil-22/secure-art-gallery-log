@@ -6,8 +6,8 @@ Secure log to describe the state of an art gallery: the guests and employees who
 Group 6
 
 ## Team Members
-- Name 1 – AndrewID
-- Name 2 – AndrewID
+Sarvesh Patil
+Jay Eichmuller
 
 ## Project Overview
 This project implements a secure logging system for tracking the state of an art gallery, including guests and employees entering and leaving rooms. It consists of two C++ programs:
