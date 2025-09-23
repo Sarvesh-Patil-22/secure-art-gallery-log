@@ -3,7 +3,7 @@ Secure log to describe the state of an art gallery: the guests and employees who
 # Secure Art Gallery Log
 
 ## Team Name
-The Code Curators
+Group 6
 
 ## Team Members
 - Name 1 – AndrewID
