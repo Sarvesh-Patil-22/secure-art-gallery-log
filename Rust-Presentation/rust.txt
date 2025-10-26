@@ -1,0 +1,12 @@
+
+Use this in terminal to install rust compiler, select option 1
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+
+Open new bash terminal, then
+Use rustc --version to check its installed
+Then to compile main.rs use
+rustc main.rs
+
+For cpp file
+g++ main.cpp
