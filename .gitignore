@@ -1,0 +1,19 @@
+# build outputs
+logappend
+logread
+security_tests
+*.o
+
+# runtime logs
+gallery.log
+audit.log
+backup.log
+
+# secrets / env / keys
+.env
+*.key
+
+# OS/editor cache
+.DS_Store
+*.swp
+*.bak

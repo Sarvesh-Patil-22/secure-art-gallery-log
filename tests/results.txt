@@ -1,0 +1,4 @@
+@Sarvesh-Patil-22 ➜ /workspaces/secure-art-gallery-log/src (main) $ ./security_tests
+All security tests passed.
+Log integrity OK after valid appends.
+Query returned expected occupants for GalleryA.
