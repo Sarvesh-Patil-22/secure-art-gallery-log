@@ -56,11 +56,7 @@ The project focuses on the following security goals:
 ### 1. Append a log entry
 
 ```bash
-# Set writer token and integrity key (required for logappend)
-export ARTLOG_TOKEN_WRITE=writer1
-export INTEGRITY_KEY=secret_key
-
-# Add an event (from src directory)
+# Add an event
 ./logappend --actor guard1 --action enter --room GalleryA --time 2025-10-30T12:00:00Z
 ```
 This adds a line to `gallery.log` with fields: `actor`, `action`, `room`, `time`, `prev`, and `hmac`.
@@ -70,11 +66,7 @@ If the token or input is invalid, `logappend` exits with error code 1 and `audit
 ### 2. Verify log integrity and query
 
 ```bash
-# Set reader token and integrity key (required for logread)
-export ARTLOG_TOKEN_READ=reader1
-export INTEGRITY_KEY=secret_key
-
-# Verify integrity only (exit 0 on OK, 1 on failure)
+# Verify integrity only
 ./logread --verify-integrity
 
 # Query who is present in a room
