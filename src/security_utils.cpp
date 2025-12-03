@@ -310,7 +310,6 @@ bool verifyLogIntegrity(const std::vector<std::string> &lines,
 // basic query logic for demonstration
 // This is not full production logic —
 // it's just to show we can answer queries securely.
-// You’ll adapt based on assignment spec.
 // --------------------------
 void runQueryFromArgs(int argc, char* argv[],
                       const std::vector<std::string> &lines) {
